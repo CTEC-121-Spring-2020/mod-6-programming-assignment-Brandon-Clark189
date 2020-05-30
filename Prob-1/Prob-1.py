@@ -2,9 +2,17 @@
 #   Programming Assignment 10
 #     Prob-1.py
 
-# <YOUR NAME>
+# Brandon Norton
 
 def main():
-    # your code here
-
+    sum = 0.0
+    
+    x = float(input("Please enter a number. (Enter a Negative number to quit program. >> "))
+   
+    while x >= 0:
+        sum = sum + x
+        x = float(input("Please enter a number. (Enter a Negative number to quit program. >> "))
+   
+    print("\nThe sum of the numbers is", sum)
+    
 main()    
